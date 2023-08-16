@@ -87,5 +87,29 @@
 }
 
 .input-field input:focus {
-  
+  outline: none;
+}
+
+#result {
+  text-align: center;
+}
+
+#total {
+  font-size: 40px;
+}
+
+#calculate {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary),
+    var(--color-tertiary)
+  );
+  border: none;
+  padding: 10px;
+  color: var(--color-septenary);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
 }
