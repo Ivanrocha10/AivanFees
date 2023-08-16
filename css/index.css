@@ -99,12 +99,7 @@
 }
 
 #calculate {
-  background: linear-gradient(
-    90deg,
-    var(--color-primary),
-    var(--color-secondary),
-    var(--color-tertiary)
-  );
+  background-color: var(--color-secondary);
   border: none;
   padding: 10px;
   color: var(--color-septenary);
@@ -112,4 +107,8 @@
   font-size: 18px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+#calculate:hover {
+  background-color: var(--color-tertiary);
 }
