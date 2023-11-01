@@ -113,65 +113,7 @@
   background-color: var(--color-tertiary);
 }
 
-@media (max-width: 610px) {
-  #calculator {
-    width: 300px;
-  }
-
-  #calculator h2 {
-    font-size: 23px;
-  }
-
-  .input-field label {
-    font-size: 12px;
-  }
-
-  .input-field input {
-    font-size: 11px;
-  }
-
-  #total {
-    font-size: 20px;
-  }
-
-  #calculate {
-    font-size: 15px;
-  }
-
-  #calculator h2::before {
-    width: 205px;
-    border-radius: 50%;
-    bottom: 0px;
-  }
-}
-
-@media (min-width: 611px) {
-  #calculator {
-    width: 570px;
-    height: 510px;
-    gap: 10px;
-  }
-
-  #calculator h2 {
-    font-size: 25px;
-  }
-
-  #calculator h2::before {
-    width: 335px;
-    border-radius: 50%;
-    bottom: 4px;
-  }
-
-  #result {
-    font-size: 25px;
-  }
-
-  #total {
-    font-size: 30px;
-  }
-}
-
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #calculator {
     padding: 40px;
     height: 510px;
@@ -210,5 +152,63 @@
 
   #total {
     font-size: 30px;
+  }
+}
+
+@media (min-width: 611px) {
+  #calculator {
+    width: 570px;
+    height: 510px;
+    gap: 10px;
+  }
+
+  #calculator h2 {
+    font-size: 25px;
+  }
+
+  #calculator h2::before {
+    width: 335px;
+    border-radius: 50%;
+    bottom: 4px;
+  }
+
+  #result {
+    font-size: 25px;
+  }
+
+  #total {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 610px) {
+  #calculator {
+    width: 300px;
+  }
+
+  #calculator h2 {
+    font-size: 23px;
+  }
+
+  .input-field label {
+    font-size: 12px;
+  }
+
+  .input-field input {
+    font-size: 11px;
+  }
+
+  #total {
+    font-size: 20px;
+  }
+
+  #calculate {
+    font-size: 15px;
+  }
+
+  #calculator h2::before {
+    width: 205px;
+    border-radius: 50%;
+    bottom: 0px;
   }
 }
