@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
 :root {
   --color-primary: #38bdf8;
   --color-secondary: #6d28d9;
