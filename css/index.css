@@ -112,3 +112,81 @@
 #calculate:hover {
   background-color: var(--color-tertiary);
 }
+
+
+@media (max-width: 425px) {
+  #calculator {
+    width: 300px;
+  }
+
+  #calculator h2 {
+    font-size: 23px;
+  }
+
+  .input-field label {
+    font-size: 12px;
+  }
+
+  .input-field input {
+    font-size: 11px;
+  }
+
+  #total {
+    font-size: 20px;
+  }
+
+  #calculate {
+    font-size: 15px;
+  }
+
+  #calculator h2::before {
+    width: 205px;
+    border-radius: 50%;
+    bottom: 0px;
+}
+}
+
+@media (min-width: 768px) {
+  #calculator {
+    padding: 40px;
+    height: 510px;
+    width: 710px;
+    border-radius: 8px;
+    gap: 13px;
+  }
+  
+  #calculator h2 {
+    font-size: 25px;
+    position: relative;
+  }
+
+  #calculator h2::before {
+    width: 335px;
+    border-radius: 50%;
+    bottom: 4px;
+}
+
+.input-field label {
+  font-size: 17px;
+}
+
+.input-field input {
+  font-size: 15px;
+}
+
+#calculate {
+  padding: 10px;
+  font-size: 20px;
+}
+
+#result {
+  font-size: 25px;
+}
+
+#total {
+  font-size: 30px;
+}
+
+}
+
+
